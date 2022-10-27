@@ -1,0 +1,79 @@
+.home {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        box-shadow: 2px 3px 7px #999;
+        font-family: sans-serif;
+        border-radius: 5px;
+        padding: 10px 0;
+        .img {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            .icon{
+                width: 30%;
+                padding: 5px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                a{
+                    color: #09341d;
+                    font-size: 20px;
+                }
+            }
+            h2 {
+                font-weight: 400;
+            }
+
+            img {
+                width: 25%;
+                height: 80px;
+                border-radius: 50pc;
+            }
+        }
+
+        .btn {
+            width: 100%;
+            height: 18vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            button {
+                width: 95%;
+                height: 50px;
+                cursor: pointer;
+                border: 1px solid #999;
+                background: none;
+                transition: all .5s;
+                display: flex;
+                border-radius: 3px;
+                align-items: flex-start;
+                justify-content: space-around;
+                flex-direction: column;
+                p{
+                    font-size: 20px;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    &:focus{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
